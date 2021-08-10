@@ -1,5 +1,4 @@
 const { app, BrowserWindow } = require('electron')
-const preload = require('./preload')
 function mostrarJanela() {
     const janela = new BrowserWindow({
         width: 1280,
